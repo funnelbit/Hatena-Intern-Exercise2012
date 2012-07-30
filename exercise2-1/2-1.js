@@ -2,7 +2,7 @@ var main = function() {
 
     var source = document.getElementById('template').innerHTML;
     var template = new Template({
-        source: source
+        source: source,
     });
 
     document.getElementById('result').innerHTML = template.render({
