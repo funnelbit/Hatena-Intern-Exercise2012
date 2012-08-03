@@ -1,0 +1,43 @@
+<html>
+  <head>
+	<meta charset="utf-8">
+    <title>{% title %}</title>
+	<style>
+	body{
+		background:#f3f3f3;
+		margin:0px;
+	}
+	#fundation{
+		width:1000px;
+		margin-left:auto;
+		margin-right:auto;
+		/*background:#ffffff;*/
+	}
+	.content_cell{
+		float:left;
+		width:240px;
+		height:240px;
+		text-align:center;
+		border-radius:5px;
+		background:#ffffff;
+		margin-top:10px;
+		margin-left:10px;
+		box-shadow:0px 0px 5px 0px #aaaaaa;
+		overflow:hidden;
+	}
+	.content_title{
+		width:100%;
+		background:#262626;
+		color:#ffffff;
+		border-bottom:solid 1px #007bbb;
+	}
+	.content_img{
+		max-width:240px;
+		max-height:240px;
+	}
+	</style>
+  </head>
+  <body>
+	<div id="fundation">{% input_content %}</div>
+  </body>
+</html>
