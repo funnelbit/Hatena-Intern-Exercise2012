@@ -18,7 +18,7 @@ sub new{
 	$mainPath = "$FindBin::RealBin/".$getPath;
 	return $this;
 }
-#画像を表示できるようにしました
+#画像を表示できるようにしました。そのため、Imgフォルダを追加しました.
 #main.htmlにcontent.htmlを入れるようにしました。そのため、TemplateEngineを呼び出す引数のハッシュは２つになりました
 #content.htmlは、複数の値がこられても大丈夫にしました
 sub render{
