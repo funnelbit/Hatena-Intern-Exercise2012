@@ -21,7 +21,6 @@ my $expected = <<'HTML';
 		width:1000px;
 		margin-left:auto;
 		margin-right:auto;
-		/*background:#ffffff;*/
 	}
 	.content_cell{
 		float:left;
